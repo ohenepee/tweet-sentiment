@@ -1,7 +1,7 @@
 download: NRC Sentiment140 BingLiu NRC_Emotion
 
 NRC:
-	wget http://www.saifmohammad.com/WebDocs/NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
+	wget http://www.saifmohammad.com/Lexicons/NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
 	unzip NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
 	rm NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
 	gunzip NRC-Hashtag-Sentiment-Lexicon-v0.1/unigrams-pmilexicon.txt.gz
@@ -9,7 +9,7 @@ NRC:
 	gunzip NRC-Hashtag-Sentiment-Lexicon-v0.1/pairs-pmilexicon.txt.gz
 
 Sentiment140:
-	wget http://www.umiacs.umd.edu/~saif/WebDocs/Sentiment140-Lexicon-v0.1.zip
+	wget http://www.saifmohammad.com/Lexicons/Sentiment140-Lexicon-v0.1.zip
 	unzip Sentiment140-Lexicon-v0.1.zip
 	rm Sentiment140-Lexicon-v0.1.zip
 	gunzip Sentiment140-Lexicon-v0.1/unigrams-pmilexicon.txt.gz
@@ -22,7 +22,7 @@ BingLiu:
 	rm opinion-lexicon-English.rar
 
 NRC_Emotion:
-	wget http://saifmohammad.com/Lexicons/NRC-Emotion-Lexicon-v0.92.zip
+	wget http://www.saifmohammad.com/Lexicons/NRC-Emotion-Lexicon-v0.92.zip
 	unzip NRC-Emotion-Lexicon-v0.92.zip
 	rm NRC-Emotion-Lexicon-v0.92.zip
 

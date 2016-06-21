@@ -4,9 +4,6 @@ NRC:
 	wget http://www.saifmohammad.com/Lexicons/NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
 	unzip NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
 	rm NRC-Hashtag-Sentiment-Lexicon-v0.1.zip
-	gunzip NRC-Hashtag-Sentiment-Lexicon-v0.1/unigrams-pmilexicon.txt.gz
-	gunzip NRC-Hashtag-Sentiment-Lexicon-v0.1/bigrams-pmilexicon.txt.gz
-	gunzip NRC-Hashtag-Sentiment-Lexicon-v0.1/pairs-pmilexicon.txt.gz
 
 Sentiment140:
 	wget http://www.saifmohammad.com/Lexicons/Sentiment140-Lexicon-v0.1.zip
